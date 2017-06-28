@@ -1,0 +1,195 @@
+body
+{
+  margin:0; background:url('http://farm5.static.flickr.com/4104/5127310748_58bb553d6e.jpg');
+  font-family:arial,tahoma;
+}
+.container
+{
+  width:80%;
+  margin:auto; 
+}
+header .nav
+{
+ line-height:70px;
+  height:70px;
+ 
+  border-bottom:2px solid #9ED0A4;
+  position:fixed;
+  width:100%;
+  top:0; 
+  color:#333333;    
+  background: url('http://farm5.static.flickr.com/4104/5127310748_58bb553d6e.jpg');
+}
+header .nav h2
+{
+  float:left;
+  margin:0;
+ 
+}
+header .nav h2 span
+{
+  color:#5CB867;
+}
+header .nav ul
+{
+  list-style:none;
+  float:right;
+  margin:0;  
+  padding-left:0;
+}
+header .nav ul li
+{
+  float:left;
+	cursor:pointer;
+}
+header .nav .menu{position:relative;}
+
+header .nav .menu .dropdown 
+{
+  position:absolute;
+  width:280px;
+  top:50px;
+  left:0;
+  box-shadow: 0 1px 2px #9ED0A4;
+  display:none;
+}
+header .nav .menu .dropdown li
+{
+  padding :0 10px;
+  clear:both;
+}
+header .nav .menu .dropdown ul li:hover 
+{
+  display:block;
+}
+header .nav a
+{
+  text-decoration:none;
+   color: #71B85C;
+   padding :0 10px;
+  display:block;
+}
+header .nav ul li:hover a
+{
+  color:#333333;
+  background-color:#9ED0A4;
+}
+header .slider
+{ 
+  height:700px;
+  margin-top:70px;
+}
+header .slider img
+{
+  width:100%;
+}
+.wild h2
+{
+  text-align:center;
+  padding-bottom: 20px;
+  color:#333333;
+}
+.wild .animal
+{
+  float:left; 
+  width:33.3333%; 
+  color:#333333;
+   transition:all .5s ease-in-out;
+
+}
+.wild .animal img
+{
+  margin :  auto;
+  margin-bottom:30px;
+  display:block;
+  border-radius:50%;
+  width:230px;
+  height:230px;  
+}
+.wild .animal:hover
+{
+  box-shadow:-1px 2px 5px #787;
+}
+.wild .animal h3{text-align:center;}
+.wild .animal p{padding :0 20px; color:#333333;}
+.wild .animal button
+{
+  display:block; 
+  margin:auto;
+  border:1px solid transparent;
+  background-color:#5cb85c;
+  padding :8px 30px ;
+  border-radius:5px 5px;
+  color:#fff;
+  cursor:pointer;
+  margin-bottom:60px
+}
+.wild .animal button:hover
+{
+  background-color:#47A447;
+}
+.zoo h2
+{
+  color:#333333;
+  text-align:center;
+  margin-bottom:10px;
+  margin-top:20px;
+}
+.zoo p
+{
+  color:#333333;
+  padding :0px;
+  margin-bottom:100px;
+ 
+}
+.footer
+{
+  color:#333;
+  text-align:center;
+  margin-bottom:20px;
+}
+.footer a
+{
+  color:#47A447;
+  text-decoration:none;
+  
+}
+.footer a:hover
+{
+  color:#4477A2;
+  text-decoration:underline;
+}
+.icons{text-align:center;}
+.icons ul
+{
+  list-style:none;
+}
+.icons ul li
+{
+  padding : 0 3px;
+  display:inline-block;
+  font-size:30px ;
+  color:#333333;
+  cursor :pointer;
+}
+.icons ul li i
+{
+  transform-style: preserve-3d;
+  transition: all .5s ease-in-out;
+ 
+}
+.icons ul li i:hover
+{
+  transform: rotateY(360deg);
+}
+ .face i:hover {color:#415E9B;}
+.twitter i:hover{color:#00ACED;}
+.linkedin i:hover{ color:#007BB6;}
+.instgram i:hover
+{
+   background: -webkit-linear-gradient(#503FE3, #B40ED2 , #FF003A ,#FF6D00 ,#FFC53F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.google i:hover {color: #DB4F42;}
+.pinterest i:hover{color:#CB2027;}
